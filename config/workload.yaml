@@ -7,11 +7,10 @@ metadata:
     app.kubernetes.io/part-of: tap-steeltoe-web-app
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: steeltoe
-    tanzu.app.live.view.application.name: weatherforecast-steeltoe
+    tanzu.app.live.view.application.name: tap-steeltoe-web-app
 spec:
   source:
     git:
-      url: https://github.com/vmware-tanzu/application-accelerator-samples.git
+      url: https://github.com/nycpivot/tap-steeltoe-web-app
       ref:
         branch: main
-    subPath: weatherforecast-steeltoe
